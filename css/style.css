@@ -658,6 +658,7 @@ input.email-bt::placeholder {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 90px;
+    position: relative;
 }
 
 .ipsum_text {
@@ -768,4 +769,78 @@ input.email-bt::placeholder {
 .toggle_menu {
     width: 50px;
     height: 50px;
+}
+
+.phone-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #DC143C;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: scaleAndFade 1.5s infinite, zoom 1.5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    z-index: 10;
+    box-shadow: 0 0 0 0 #c31d1d;
+    /*background-color: rgba(230, 8, 8, 0.7);*/
+}
+.phone-icon a {
+    text-align: center;
+}
+
+.phone-icon img {
+    max-width: 50%;
+    max-height: 50%;
+    animation: shake 0.5s ease-in-out infinite;
+    transform-origin: center;
+    animation-delay: 0.2s;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    40% {
+        transform: rotate(20deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes scaleAndFade {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+.phone-icon:hover::before {
+    opacity: 1;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(.9)
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent
+    }
+    100% {
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 transparent
+    }
 }
