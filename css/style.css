@@ -327,8 +327,8 @@ button {
     text-align: center;
 }
 
-.image_1 {
-    width: 80%;
+.banner_image {
+    width: 100%;
     float: right;
     margin-top: 50px;
 }
@@ -499,9 +499,10 @@ input.email-bt::placeholder {
     float: left;
 }
 
-.image_3 {
+.image_introduce {
     width: 100%;
     float: left;
+    height: 100%;
 }
 
 .cabe_text {
@@ -609,7 +610,7 @@ input.email-bt::placeholder {
 .account_text {
     width: 100%;
     float: left;
-    font-size: 28px;
+    font-size: 24px;
     color: #ebebeb;
     font-weight: bold;
     padding: 25px 0px;
@@ -644,10 +645,9 @@ input.email-bt::placeholder {
     padding: 25px 0px;
 }
 
-.footer_section_2 {
+.footer_section {
     width: 100%;
     float: left;
-    padding-top: 40px;
 }
 
 .section_footer {
@@ -659,6 +659,27 @@ input.email-bt::placeholder {
     padding-bottom: 30px;
     margin-top: 90px;
     position: relative;
+}
+
+.footer_section ul {
+    margin-left: 20px;
+}
+
+@media (min-width: 576px) {
+    .footer_section ul {
+        margin-left: 0;
+    }
+}
+
+.footer_section ul li {
+    color: #ebebeb;
+    font-size: 14pt;
+    list-style: disc;
+}
+
+.footer_section ul li a {
+    color: #ebebeb;
+    font-size: 14pt;
 }
 
 .ipsum_text {
@@ -788,6 +809,7 @@ input.email-bt::placeholder {
     box-shadow: 0 0 0 0 #c31d1d;
     /*background-color: rgba(230, 8, 8, 0.7);*/
 }
+
 .phone-icon a {
     text-align: center;
 }
