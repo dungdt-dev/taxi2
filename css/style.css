@@ -298,7 +298,6 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-color: #1a1a1a;
     height: auto;
     padding-top: 90px;
 }
@@ -330,14 +329,13 @@ button {
 .banner_image {
     width: 100%;
     float: right;
-    margin-top: 50px;
 }
 
 .booking_text {
     width: 100%;
     float: left;
     font-size: 26px;
-    color: #fbfaf6;
+    color: #2b3436;
     text-align: center;
 }
 
@@ -354,7 +352,7 @@ button {
     width: 100%;
     float: left;
     font-size: 30px;
-    color: white;
+    color: #2b3436;
     border-bottom: 0px solid #49bcfe;
     padding-top: 20PX;
     text-align: center;
@@ -405,7 +403,7 @@ button {
     float: left;
     background-color: #161c1e;
     height: auto;
-    margin-top: 90px;
+    margin-top: 50px;
     padding-bottom: 50px;
 }
 
