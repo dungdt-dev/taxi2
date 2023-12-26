@@ -581,7 +581,7 @@ input.email-bt::placeholder {
 .location_sectin {
     width: 100%;
     float: left;
-    background-image: url(../images/img-6.png);
+    background-image: url(../public/images/img-6.png);
     height: auto;
     background-size: 100%;
     padding-bottom: 30px;
@@ -782,7 +782,7 @@ input.email-bt::placeholder {
 
 .menu_mobi {
     display: none;
-    background-image: url("/images/menu-icon.png");
+    background-image: url("/public/images/menu-icon.png");
 }
 
 .toggle_menu {
